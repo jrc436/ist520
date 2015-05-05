@@ -12,9 +12,16 @@ In directed crowdsourcing, the interesting problem is to get quality work. Since
 
 In order to get quality work, the organizers must develop a workflow that minimizes the difficulty of any individual task, and then combines them to get quality work out of it. For instance, the Find-Fix-Verify paradigm has been used for editing documents \cite{crowdsourcing}. The idea of this paradigm is that one worker finds areas where the document doesn't read as well it should, and marks them for the next worker. The next worker then makes corrections to the problem areas that the first worker highlighted. Finally, the last participant looks over the changes that were made to the document and verifies that they were correct. Each of these tasks individually are fairly simple, but they have been shown to give pretty good results \cite{crowdsourcing}. 
 
-Another paradigm for effective work is inspired by distributed computing: Map Reduce. Map and reduce originally refer to two functions in the functional programming paradigm. Map essentially applies some function to each of the elements of a list. Reduce takes elements from a list and combines them into a single structure. This has been popular in distributed computing, because the map on each element can be computed by a computer, and then the reduce can be computed by another computer. Similarly, this type of idea can be performed by humans, where each person, instead of viewing the whole data set, just takes something simple and applies some change to it. Then, the last person combines these outputs into a single output that goes back to the organizer.
+Another paradigm for effective work is inspired by distributed computing: Map Reduce. Map and reduce originally refer to two functions in the functional programming paradigm. Map essentially applies some function to each of the elements of a list. Reduce takes elements from a list and combines them into a single structure. This has been popular in distributed computing, because the map on each element can be computed by a computer, and then the reduce can be computed by another computer. Similarly, this type of idea can be performed by humans, where each person, instead of viewing the whole data set, just takes something simple and applies some change to it. Then, the last person combines these outputs into a single output that goes back to the organizer. See Figure \ref{fig:mapreduce}.
 
-These types of workflows allow for complicated task to be broken into many simple tasks. These methods seem to be more effective for getting quality work than increasing pay in the setting of crowdsourcing \cite{crowdsourcing}.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.9\columnwidth]{figure/mapreduce}
+\caption{A visualization of the map reduce workflow}
+\label{fig:mapreduce}
+\end{figure} 
+
+These types of workflows allow for a complicated task to be broken into many simple tasks. These methods seem to be more effective for getting quality work than increasing pay in the setting of crowdsourcing \cite{crowdsourcing}.
 
 \subsection{Collaborative Crowdsourcing}
 Collaborative crowdsourcing does not rely on a single organizer to direct the work. While there is often a person in charge, he or she plays a much more limited role than in directed crowdsourcing. For instance, while Jimmy Wales provides the hosting for Wikipedia, he does not instruct any individual editors on proper editing methodology or topics.
